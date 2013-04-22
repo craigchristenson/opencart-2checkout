@@ -1,24 +1,30 @@
 ### _For a discount on 2Checkout’s monthly fees, enter promo code:  GIT2CO  during signup._
 
-### Integrate LemonStand with 2Checkout
+### Integrate OpenCart with 2Checkout (Supports Direct Checkout)
 ----------------------------------------
 
-### LemonStand Settings
+### OpenCart Settings
 
-1. Download the 2Checkout payment module from http://lemonstand.com/marketplace/module/twocheckout/
-2. Upload the files to the 'modules' directory on your LemonStand install.
-3. In your LemonStand admin, create a new payment method and select 2Checkout.
-4. Enter your **2Checkout Seller ID**. _(2Checkout Account Number)_ 
-5. Enter your **2Checkout Secret Word**. _(Must be the same value entered on your 2Checkout Site Management page.)_
-6. Save your changes.
+1. Download the 2Checkout payment module from https://github.com/craigchristenson/opencart-2checkout
+2. Upload the files to your OpenCart directory.
+3. Sign in to your OpenCart admin.
+4. Click **Extensions** tab and **Payments subtab**.
+5. Under **2Checkout** click **Install** and then click **Edit**.
+6. Enter your **2Checkout Account ID**. _(2Checkout Account Number)_
+7. Select **No** under **Test Mode**.
+8. Select **Yes** under **Checkout Display**.
+9. Select **Complete** under **Order Status**.
+10. Select **Enabled** under **Status**.
+11. Enter your **Secret Word** _(Must be the same value entered on your 2Checkout Site Management page.)_
+12. Save your changes.
 
 ### 2Checkout Settings
 
 1. Sign in to your 2Checkout account. 
 2. Click the **Account** tab and **Site Management** subcategory. 
 3. Under **Direct Return** select **Header Redirect** or **Given links back to my website**.
-4. Enter your **Secret Word**._(Must be the same value entered in your LemonStand admin.)_
-5. Click **Save Changes**.
-6. 
+4. Enter your **Secret Word**._(Must be the same value entered in your OpenCart admin.)_
+5. Set the **Approved URL** to http://www.yourstore.com/index.php?route=payment/twocheckout/callback _(Replace http://www.yourstore.com with the actual URL to your store.)_
+6. Click **Save Changes**. 
 
 Please feel free to contact 2Checkout directly with any integration questions.
