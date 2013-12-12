@@ -29,13 +29,17 @@ class ControllerPaymentTwoCheckout extends Controller {
 		$this->data['phone'] = $order_info['telephone'];
 		
 		if ($this->cart->hasShipping()) {
+			$this->data['ship_name'] = $order_info['shipping_firstname'] . ' ' . $order_info['shipping_lastname'];
 			$this->data['ship_street_address'] = $order_info['shipping_address_1'];
+			$this->data['ship_street_address2'] = $order_info['shipping_address_2'];
 			$this->data['ship_city'] = $order_info['shipping_city'];
 			$this->data['ship_state'] = $order_info['shipping_zone'];
 			$this->data['ship_zip'] = $order_info['shipping_postcode'];
 			$this->data['ship_country'] = $order_info['shipping_country'];
 		} else {
+			$this->data['ship_name'] = $order_info['payment_firstname'] . ' ' . $order_info['payment_lastname'];
 			$this->data['ship_street_address'] = $order_info['payment_address_1'];
+			$this->data['ship_street_address2'] = $order_info['payment_address_2'];
 			$this->data['ship_city'] = $order_info['payment_city'];
 			$this->data['ship_state'] = $order_info['payment_zone'];
 			$this->data['ship_zip'] = $order_info['payment_postcode'];

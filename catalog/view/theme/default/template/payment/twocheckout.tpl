@@ -10,6 +10,7 @@
   <input type="hidden" name="country" value="<?php echo $country; ?>" />
   <input type="hidden" name="email" value="<?php echo $email; ?>" />
   <input type="hidden" name="phone" value="<?php echo $phone; ?>" />
+  <input type="hidden" name="ship_name" value="<?php echo $ship_name; ?>" />
   <input type="hidden" name="ship_street_address" value="<?php echo $ship_street_address; ?>" />
   <input type="hidden" name="ship_city" value="<?php echo $ship_city; ?>" />
   <input type="hidden" name="ship_state" value="<?php echo $ship_state; ?>" />
