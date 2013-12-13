@@ -15,6 +15,7 @@ class ControllerPaymentTwoCheckout extends Controller {
 		$this->data['cart_order_id'] = $this->session->data['order_id'];
 		$this->data['card_holder_name'] = $order_info['payment_firstname'] . ' ' . $order_info['payment_lastname'];
 		$this->data['street_address'] = $order_info['payment_address_1'];
+		$this->data['street_address2'] = $order_info['payment_address_2'];
 		$this->data['city'] = $order_info['payment_city'];
 		
 		if ($order_info['payment_iso_code_2'] == 'US' || $order_info['payment_iso_code_2'] == 'CA') {
