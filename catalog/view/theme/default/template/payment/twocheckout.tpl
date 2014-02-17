@@ -31,7 +31,7 @@
   <input type="hidden" name="demo" value="<?php echo $demo; ?>" />
   <?php } ?>
   <input type="hidden" name="lang" value="<?php echo $lang; ?>" />
-  <input type="hidden" name="return_url" value="<?php echo $return_url; ?>" />
+  <input type="hidden" name="x_receipt_link_url" value="<?php echo $return_url; ?>" />
   <input type="hidden" name="currency_code" value="<?php echo $currency_code; ?>" />
   <div class="buttons">
     <div class="right">
