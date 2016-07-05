@@ -1,3 +1,6 @@
+#### Please Note: This extension only supports opencart 1.5x, for opencart 2.x please use the 2Checkout extention bundled with OpenCart 2.x.
+(If you have any issues with the 2Checkout integration that comes with OpenCart 2.x please let me know so that I can assist with fixing.)
+
 ### _[Signup free with 2Checkout and start selling!](https://www.2checkout.com/referral?r=git2co)_
 
 ### Integrate OpenCart with 2Checkout (Supports Direct Checkout)
