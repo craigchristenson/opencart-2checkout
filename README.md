@@ -1,4 +1,4 @@
-#### Please Note: This extension only supports OpenCart 3.x inline flow, for opencart below the newer 3.x please use the 2Checkout extention bundled with OpenCart 2.x.
+#### Please Note: This extension only supports OpenCart 3.x inline flow, for OpenCart below the newer 3.x please use the 2Checkout extention bundled with OpenCart 2.x.
 (If you have any issues with the 2Checkout integration that comes with OpenCart 2.x please let us know so that I can assist with fixing.)
 
 ### _[Signup free with 2Checkout and start selling!](https://www.2checkout.com/referral?r=git2co)_
