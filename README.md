@@ -1,5 +1,5 @@
-#### Please Note: This extension only supports opencart 1.5x, for opencart 2.x please use the 2Checkout extention bundled with OpenCart 2.x.
-(If you have any issues with the 2Checkout integration that comes with OpenCart 2.x please let me know so that I can assist with fixing.)
+#### Please Note: This extension only supports OpenCart 3.x inline flow, for OpenCart below the newer 3.x please use the 2Checkout extention bundled with OpenCart 2.x.
+(If you have any issues with the 2Checkout integration that comes with OpenCart 2.x please let us know so that I can assist with fixing.)
 
 ### _[Signup free with 2Checkout and start selling!](https://www.2checkout.com/referral?r=git2co)_
 
@@ -18,7 +18,7 @@
 8. Select **Yes** under **Checkout Display** if you want to use Inline Checkout.
 9. Select **Complete** under **Order Status**.
 10. Select **Enabled** under **Status**.
-11. Enter your **Secret Word** _(Must be the same value entered on your 2Checkout Site Management page.)_
+11. Enter your **Secret Word** _(Must be the same value entered on your 2Checkout Site Management page - would recommend an alphanumeric one.)_
 12. Save your changes.
 
 ### 2Checkout Settings
@@ -27,7 +27,7 @@
 2. Click the **Account** tab and **Site Management** subcategory. 
 3. Under **Direct Return** select **Header Redirect** or **Given links back to my website**.
 4. Enter your **Secret Word**._(Must be the same value entered in your OpenCart admin.)_
-5. Set the **Approved URL** to http://www.yourstore.com/index.php?route=payment/twocheckout/callback _(Replace http://www.yourstore.com with the actual URL to your store.)_
+5. Set the **Approved URL** to http://www.yourstore.com/index.php?route=extension/payment/twocheckout/callback _(Replace http://www.yourstore.com with the actual URL to your store.)_
 6. Click **Save Changes**. 
 
-Please feel free to contact 2Checkout directly with any integration questions.
+Please feel free to contact 2Checkout directly with any integration questions via supportplus@2checkout.com.
